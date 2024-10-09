@@ -1,0 +1,53 @@
+.cform-container {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+
+  .cform-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .cform-input {
+    margin: 0 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .cform-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .cform-button.save {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .cform-button.save:disabled {
+    background-color: grey;
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+  
+  .cform-button.cancel {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .view-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
