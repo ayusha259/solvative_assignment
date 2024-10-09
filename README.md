@@ -19,3 +19,5 @@ cd client
 npm i
 npm start
 ```
+
+After this you can visit `localhost:3000` to see the app running
